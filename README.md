@@ -3,7 +3,7 @@ A repo for learning how to compute toxicity scores.  The model used for computin
 
 # How to run
 1. pip install requirements.txt: `pip install -r requirements.txt`
-2. run `python toxicity.py` with arguments below
+2. run `python toxicity.py` with arguments found in Command Line Arguments section below.
 
 Example: `python toxicity.py --input=C:/Users/user/Documents/GitHub/ToxicityProcessingTraining/sample.txt --output=C:/Users/user/Documents/GitHub/ToxicityProcessingTraining/output.csv --model=original`
 
