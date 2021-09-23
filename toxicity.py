@@ -44,7 +44,7 @@ def main(args):
         for line, result in zip(text, results):
             #Forcing csv friendly chars
             line = "".join(x for x in line if x.isalnum() or x in (" ", "#"))
-            d = [line] + [str(x) for x in result.values()]
+            d = [line] + [str(round(x, 3)) for x in result.values()]
             f.write(','.join(d) + '\n')
     print(f"\nResults written to {args.output}")
 
